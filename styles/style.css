@@ -120,7 +120,6 @@ input {
 }
 
 .search-form__textfield:focus {
-  border: none;
   outline: none;
 }
 
@@ -129,9 +128,8 @@ input {
   outline-offset: 1px;
 }
 
-.search-form__label:has(:active) {
+.search-form__textfield:active {
   border: 1px solid #fff;
-  
 }
 
 .search-form__textfield:hover {
